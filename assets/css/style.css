@@ -1,0 +1,93 @@
+.crystal-image {
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    border: 1px solid ivory;
+    border-radius: 20px 3px 20px 3px;
+    -webkit-box-shadow: 0px 0px 22px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 22px 0px rgba(255,255,255,1);
+}
+
+#sunset {
+    background-image: url("https://static.boredpanda.com/blog/wp-content/uploads/2015/01/amazing-stones-minerals-1__700.jpg");
+    background-size: cover;
+}
+
+#opal {
+    background-image: url("https://static.boredpanda.com/blog/wp-content/uploads/2015/01/amazing-stones-minerals-14__700.jpg");
+    background-size: cover;
+}
+
+#ocean {
+    background-image: url("https://static.boredpanda.com/blog/wp-content/uploads/2015/01/Amazing-StonesMinerals__700.jpg");
+    background-size: cover;
+}
+
+#bismuth {
+    background-image: url("https://static.boredpanda.com/blog/wp-content/uploads/2015/01/Amazing-StonesMinerals3__700.jpg");
+    background-size: cover;
+}
+
+#score {
+    /* float: right; */
+    margin-right: 250px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+#crystals {
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#randomscore {
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.scorediv {
+    float: right;
+}
+
+div.jumbotron {
+    background-color: ivory;
+}
+
+.winslosses {
+    margin-left: 35%;
+    font-size: 50px;
+}
+
+span {
+    /* margin-left: 50px; */
+}
+
+h2 {
+    padding: 30px;
+}
+
+body {
+    background: linear-gradient(359deg, #0f406c, #b4b9be);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
