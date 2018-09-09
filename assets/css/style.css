@@ -3,7 +3,7 @@
     height: 250px;
     margin-left: 100px;
     border: 1px solid ivory;
-    border-radius: 20px 3px 20px 3px;
+    border-radius: 40px 3px 40px 3px;
     -webkit-box-shadow: 0px 0px 22px 0px rgba(255,255,255,1);
     -moz-box-shadow: 0px 0px 22px 0px rgba(255,255,255,1);
     box-shadow: 0px 0px 22px 0px rgba(255,255,255,1);
@@ -33,18 +33,22 @@
     /* float: right; */
     margin-right: 250px;
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 #crystals {
     float: left;
     margin-bottom: 20px;
     margin-top: 30px;
+    font-weight: bold;
 }
 
 #randomscore {
     margin-left: 150px;
-    font-size: 40px;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
 }
 
 .scorediv {
@@ -53,15 +57,26 @@
 
 div.jumbotron {
     background-color: ivory;
+    height: 220px;
+    margin: 0;
 }
 
 .winslosses {
     margin-left: 35%;
-    font-size: 50px;
+    font-size: 80px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
 }
 
-span {
-    /* margin-left: 50px; */
+h1.display-4 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+p.lead {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px;
 }
 
 h2 {

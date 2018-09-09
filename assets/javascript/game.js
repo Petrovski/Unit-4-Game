@@ -29,7 +29,7 @@
     $("#crystals").append(mineralButton)
 }
 
-    // This time, our click event applies to every single crystal on the page. Not just one.
+    // This time, our click event applies to every single mineral on the page... Not just one.
         $(".crystal-image").on("click", function () {
 
             // Determining the crystal's value requires us to extract the value from the data attribute.
@@ -37,13 +37,13 @@
             // Using the .attr("data-crystalvalue") allows us to grab the value out of the "data-crystalvalue" attribute.
             // Since attributes on HTML elements are strings, we must convert it to an integer before adding to the counter
 
-        var crystalValue = ($(this).attr("data-crystalvalue"));
-        crystalValue = parseInt(crystalValue);
-        
+        var mineralValue = ($(this).attr("data-crystalvalue"));
+        mineralValue = parseInt(mineralValue);
+
         // We then add the crystalValue to the user's "counter" which is a global variable.
 
         // Every click, from every crystal adds to the global counter.
-        counter += crystalValue;
+        counter += mineralValue;
 
         // Get the Logic running so the game actually works
         $("#score").text(counter);
@@ -63,7 +63,6 @@
         }
 
     });
-
 
     function gameReset() {
         counter = 0;
