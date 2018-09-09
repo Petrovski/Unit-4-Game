@@ -19,7 +19,7 @@
 
             // For each iteration, we will create a mineralButton
 
-       var mineralButton = $("#crytals").add("<img " + mineralId[i] + ">").addClass("crystal-image");
+       var mineralButton = $("#crytals").add("<img " + mineralId[i] + ">").addClass("mineral-image");
 
 
     // Add data values to each mineralButton
@@ -29,8 +29,8 @@
     $("#crystals").append(mineralButton)
 }
 
-    // This time, our click event applies to every single mineral on the page... Not just one.
-        $(".crystal-image").on("click", function () {
+    // This time, our click event applies to every single mineral on the page. Not just one.
+        $(".mineral-image").on("click", function () {
 
             // Determining the crystal's value requires us to extract the value from the data attribute.
             // Using the $(this) keyword specifies that we should be extracting the crystal value of the clicked crystal.
